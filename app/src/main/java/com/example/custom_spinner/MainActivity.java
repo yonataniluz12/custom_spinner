@@ -12,7 +12,7 @@ import android.widget.SpinnerAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public abstract class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     Spinner spin;
     TextView tV1,tV2,tV3;
     int [] imges = {R.drawable.argentina,R.drawable.brazil,R.drawable.us,R.drawable.frans,
@@ -48,5 +48,4 @@ public abstract class MainActivity extends AppCompatActivity implements AdapterV
     @Override
     public void onNothingSelected(AdapterView<?> adapterView) {
     }
-
 }
